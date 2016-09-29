@@ -1,6 +1,6 @@
 import 'dart:html';
 
-void main() {
+void main(){
   querySelector('#sample_text_id')
     .. text = "2,5,1,8,7"
     ..onClick.listen(sort);
